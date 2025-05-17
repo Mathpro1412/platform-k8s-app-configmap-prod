@@ -4,6 +4,6 @@ kind: Kustomization
 configMapGenerator:
 - name: nong-kai-api
   files:
-  - nongkai-service/.env
+  - nongkai-service
   options:
     disableNameSuffixHash: true
